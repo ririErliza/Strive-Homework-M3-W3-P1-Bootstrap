@@ -1,0 +1,19 @@
+a{
+    color:black !important;
+}
+
+.bell-icon{
+    width: 60;
+    height: 32;
+    border-radius: 50%;
+    background-color: rgba(94, 91, 91, 0.712);
+}
+
+.banner{
+    height:60vh;
+    width: 100%;
+    background-color: #7153fa;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
