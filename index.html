@@ -21,7 +21,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <a class="navbar-brand" href="#"><img src="assets\logo.svg" alt="logo" height="32"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -101,15 +101,13 @@
 
     <!-- banner -->
     <section id="banner">
-
-    
         <div class="container">
             <div class="row">
                 <div id="banner-title" class="col-12 col-lg-6">
                     <h1>Welcome Web Students</h1>
                     <p class="pt-2">Hand-picked instructor and expertly crafted courses, designed for the modern students and entrepreneur.  </p>
                     <div id="buttons" class="d-flex flex-row flex-wrap pt-2">
-                        <button type="button" class="btn btn-info mr-1">Browse Course</button>
+                        <button type="button" class="btn btn-info mr-1">Browse Courses</button>
                         <button type="button" class="btn btn-light font-weight-bold">Are You Instructor?</button>
                     </div>
                 </div>
@@ -122,47 +120,90 @@
 
     </section>
 
-<!--3 icons -->
+    <!--3 icons -->
+    <section id="icons-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4 d-flex flex-row mt-3">
+                    <button  class="mr-3 btn btn-sm rounded-circle icon">
+                        <i class="bi bi-camera-video"></i>
+                    </button>
+                
+                <div class="text1">
+                    <div class="font-weight-bold">30.000 online courses</div>
+                    <div class="text-muted">Enjoy a variety of fresh topics</div>
+                </div>
+            </div>
 
-<div class="container mt-4">
-    <div class="row">
-        <div class="col-12 col-lg-4 d-flex flex-row mt-3">
+            <div class="col-12 col-lg-4 d-flex flex-row mt-3">
                 <button  class="mr-3 btn btn-sm rounded-circle icon">
-                    <i class="bi bi-camera-video"></i>
+                    <i class="bi bi-people"></i>
                 </button>
             
-            <div class="text1">
-                <div class="font-weight-bold">30.000 online courses</div>
-                <div class="text-muted">Enjoy a variety of fresh topics</div>
+                <div class="text1">
+                    <div class="font-weight-bold">Expert instruction</div>
+                    <div class="text-muted">Find the right instructor for you</div>
+                </div>
             </div>
+
+            <div class="col-12 col-lg-4 d-flex flex-row mt-3">
+                <button  class="mr-3 btn btn-sm rounded-circle icon">
+                    <i class="bi bi-clock"></i>
+                </button>
+            
+                <div class="text1">
+                    <div class="font-weight-bold">Lifetime access</div>
+                    <div class="text-muted">Learn on your schedule</div>
+                </div>
+            </div>
+    </div>
+
+    </section>
+
+    <!--cards carrousel -->
+
+    <section>
+        <div class="container"></div>
+            <div class="section-title mt-3 mt-md-4 mb-2">
+                <h5 class="d-inline-block align-baseline mb-0">Recommended to you</h5>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide  d-none d-sm-block" data-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="row mx-n1">
+                            <div class="col-12 col-sm-6 col-md-3 px-1 mb-2 mb-md-0">
+                                <div class="card">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="card-footer d-flex flex-row justify-content-between">
+                            
+                                    <div>
+                                        <img src="assets\avatar-1.jpg" alt="avatar man" width="22" height="22" class="rounded-circle">
+                                        <small class="text-muted pl-2">Jenny Wilson</small>
+                                    </div>
+                        
+                                    <button class="mr-3 btn btn-sm">
+                                        <i class="bi bi-bookmark"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            </div>
+                            
+
+            
         </div>
 
-        <div class="col-12 col-lg-4 d-flex flex-row mt-3">
-            <button  class="mr-3 btn btn-sm rounded-circle icon">
-                <i class="bi bi-people"></i>
-            </button>
-        
-            <div class="text1">
-                <div class="font-weight-bold">Expert instruction</div>
-                <div class="text-muted">Find the right instructor for you</div>
-            </div>
-        </div>
+    </section>
 
-        <div class="col-12 col-lg-4 d-flex flex-row mt-3">
-            <button  class="mr-3 btn btn-sm rounded-circle icon">
-                <i class="bi bi-clock"></i>
-            </button>
-        
-            <div class="text1">
-                <div class="font-weight-bold">Expert instruction</div>
-                <div class="text-muted">Find the right instructor for you</div>
-            </div>
-        </div>
-
-    
-</div>
-
-
-    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,5 +1,6 @@
 body{
     margin:0;
+    background-color: #f5f4f8;
 }
 /* navbar */
 a{
@@ -38,6 +39,15 @@ a{
 
 /* 3 icons section */
 
+#icons-section{
+    margin-top:0px;
+    background-color: white;
+    height: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .icon{
     background-color:#f9eedb;
     width:53px;
@@ -46,5 +56,8 @@ a{
     align-self: center;
     color:#c99a55;
     font-size: 17px;
-    
+    font-weight: bold;
 }
+
+/* cards carrousel */
+
