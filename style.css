@@ -1,6 +1,5 @@
 body{
     margin:0;
-    background-color: #f5f4f8;
 }
 /* navbar */
 a{
@@ -39,14 +38,14 @@ a{
 
 /* 3 icons section */
 
-#icons-section{
+/* #icons-section{
     margin-top:0px;
     background-color: white;
     height: 150px;
     display:flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .icon{
     background-color:#f9eedb;
@@ -60,4 +59,35 @@ a{
 }
 
 /* cards carrousel */
+#carrousel{
+    margin-top: 30px;
+    background-color: #f5f4f8;
+}
 
+.rating{
+    font-size: 0.7em;
+}
+
+.stars{
+    color:orange;
+}
+
+.rating .stars .font-1-em{
+    font-size: 1.25em;
+}
+
+
+@media (min-width: 768px) {
+    #carouselExampleControls .carousel-control-prev,
+    #carouselExampleControls .carousel-control-next {
+      width: 20px;
+    }
+  
+    #carouselExampleControls .carousel-control-prev {
+      left: -20px;
+    }
+  
+    #carouselExampleControls .carousel-control-next {
+      right: -20px;
+    }
+  }
