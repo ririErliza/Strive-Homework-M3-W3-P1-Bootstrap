@@ -34,3 +34,17 @@ a{
 #banner-title p{
     color:#aa98fb
 }
+
+
+/* 3 icons section */
+
+.icon{
+    background-color:#f9eedb;
+    width:53px;
+    height:53px;
+    border-radius: 50%;
+    align-self: center;
+    color:#c99a55;
+    font-size: 17px;
+    
+}
