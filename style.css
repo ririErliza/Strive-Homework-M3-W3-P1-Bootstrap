@@ -1,5 +1,10 @@
+body{
+    margin:0;
+}
+/* navbar */
 a{
     color:black !important;
+    font-weight: 600;
 }
 
 .bell-icon{
@@ -9,11 +14,23 @@ a{
     background-color: rgba(94, 91, 91, 0.712);
 }
 
-.banner{
-    height:60vh;
-    width: 100%;
+/* banner section */
+
+
+
+#banner{
     background-color: #7153fa;
-    background-size: cover;
-    background-repeat: no-repeat;
-  
+}
+
+#banner-title{
+    margin-bottom:10px;
+}
+
+#banner-title h1{
+    padding-top:15%;
+    color:white;   
+}
+
+#banner-title p{
+    color:#aa98fb
 }
