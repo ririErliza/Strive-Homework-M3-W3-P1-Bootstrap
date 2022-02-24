@@ -59,7 +59,7 @@ a{
 }
 
 /* cards carrousel */
-#carrousel{
+#carousel{
     margin-top: 30px;
     background-color: #f5f4f8;
 }
@@ -78,16 +78,41 @@ a{
 
 
 @media (min-width: 768px) {
-    #carouselExampleControls .carousel-control-prev,
-    #carouselExampleControls .carousel-control-next {
+    #carouselRecommended .carousel-control-prev,
+    #carouselRecommended .carousel-control-next,
+    #carouselPopular .carousel-control-prev,
+    #carouselPopular .carousel-control-next,
+    #carouselTrending .carousel-control-prev,
+    #carouselTrending .carousel-control-next  {
       width: 20px;
     }
   
-    #carouselExampleControls .carousel-control-prev {
+    #carouselRecommended .carousel-control-prev,
+    #carouselPopular .carousel-control-prev,
+    #carouselTrending .carousel-control-prev
+     {
       left: -20px;
     }
   
-    #carouselExampleControls .carousel-control-next {
+    #carouselRecommended .carousel-control-next,
+    #carouselPopular .carousel-control-next,
+    #carouselTrending .carousel-control-next {
       right: -20px;
     }
   }
+
+  /* footer */
+
+  hr{
+      color:#e3e1e694 ;
+  }
+
+  footer ul, footer a {
+    color: rgb(168, 167, 167) !important;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+
+ 
